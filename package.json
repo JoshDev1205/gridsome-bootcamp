@@ -1,0 +1,19 @@
+{
+  "name": "gridsome-bootcamp",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "@contentful/rich-text-types": "^13.4.0",
+    "@gridsome/source-contentful": "^0.4.0",
+    "gridsome": "^0.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  }
+}
