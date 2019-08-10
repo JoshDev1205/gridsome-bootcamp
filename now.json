@@ -1,12 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+  "build": {
+    "env": {
+      "CONTENTFUL_SPACE_ID": "x9x7kbkml5og",
+      "CONTENTFUL_ACCESS_TOKEN": "clcJHughAPRQU2jWn2RM7QmrzFSdwsttwTKfXClP3U4"
     }
-  ]
+  }
 }
